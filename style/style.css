@@ -1,0 +1,29 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+    --text-color: #252B42;
+    --second-text-color: #737373;
+    --primary-color: #FFA62B;
+    --secondary-color-1: #00A0C1;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.blank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
